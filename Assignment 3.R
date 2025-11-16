@@ -25,7 +25,7 @@ dbListTables(con)
 #Step 1: Load data.table
 library(data.table)
 
-# Step 2: Load or convert your film table into a data.table
+# Step 2: Load or convert your film table into a data.tables
 films <- as.data.table(films)
 
 #Step 3: Filter films with rating = "PG" and rental_duration > 5
